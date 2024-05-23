@@ -21,19 +21,19 @@ This project is a simple chat server implemented in Go. It allows multiple clien
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/chat-server.git
-    cd chat-server
+    git clone https://github.com/seniorLikeToCode/GoSocketChat.git
+    cd GoSocketChat
     ```
 
 2. Build the server:
 
     ```sh
-    go build -o chat-server
+    go build -o main.go
     ```
 
 3. Run the server:
     ```sh
-    ./chat-server
+    ./main
     ```
 
 The server will start and listen for connections on port 5000.
@@ -114,14 +114,4 @@ Connection closed by foreign host.
 
 The server logs all connections, disconnections, and errors to the standard output.
 
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
-
-Enjoy your chat server! If you have any questions or need further assistance, please open an issue on the repository.
